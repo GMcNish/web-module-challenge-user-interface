@@ -11,6 +11,10 @@ h1 {
   font-size: 60px;
 }
 
+h2 {
+  border: 1px solid red;
+}
+
 h2, h3, h4, h5, h6 {
   font-family: 'Gaegu', cursive;
   margin-bottom: 0;
@@ -36,6 +40,7 @@ line-height: 1.4;
 */
 img {
   border-radius: 10px;
+  border: 1px solid red;
 }
 
 /*======= Create a selector for ALL images in the site to have the following styles: 
@@ -59,7 +64,7 @@ img {
   margin: 0 auto;
 }
 
-.container header nav a {
+header .container nav a {
   margin: 0 10px;
   border: 1px solid lightgray;
   padding: 20px;
@@ -84,6 +89,11 @@ section.about {
 /*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
 */
+
+#cookies {
+  /* display: inline-block; */
+  border: 1px solid red;
+}
 
 .contact-section {
   border-top: 1px dashed black;
